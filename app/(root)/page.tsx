@@ -1,5 +1,5 @@
 import HeaderBox from '@/components/HeaderBox'
-import TotalBalanceBox from '@/components/totalBalanceBox'
+import TotalBalanceBox from '@/components/TotalBalanceBox'
 import React from 'react'
 
 const Home = () => {
@@ -18,8 +18,8 @@ const Home = () => {
           />
           <TotalBalanceBox 
             accounts= {[]}
-            totalBank={1}
-            totalCurentBalance={124.45}
+            totalBanks={1}
+            totalCurrentBalance={1241.00}
           />
         </header>
       </div>
